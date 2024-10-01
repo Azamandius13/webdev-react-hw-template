@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -33,8 +33,8 @@ body {
   height: 100%;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
-}
-
+} */
+/* 
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -867,4 +867,4 @@ body {
 
 .volume__progress-line {
   width: 109px;
-}
+} */
