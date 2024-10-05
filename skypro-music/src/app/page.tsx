@@ -9,7 +9,7 @@ export default function Home() {
           <main className="main">
             <nav className="main__nav nav">
               <div className="nav__logo logo">
-                <Image alt="logo" className="logo__image" src="img/logo.png" />
+                <Image width={0} height={0} alt="logo" className="logo__image" src="/img/logo.png" />
               </div>
               <div className="nav__burger burger">
                 <span className="burger__line" />
@@ -48,7 +48,7 @@ export default function Home() {
                   name="search"
                 />
               </div>
-              <h2 className={styles.centerblock__h2}>Треки</h2>
+              <h2 className={styles.centerblockH2}>Треки</h2>
               <div className="centerblock__filter filter">
                 <div className="filter__title">Искать по:</div>
                 <div className="filter__button button-author _btn-text">
@@ -644,27 +644,36 @@ export default function Home() {
                   <div className="sidebar__item">
                     <a className="sidebar__link" href="#">
                       <Image
+                        width={0}
+                        height={0}
                         className="sidebar__img"
-                        src="img/playlist01.png"
+                        src="/img/playlist01.png"
                         alt="day's playlist"
+
                       />
                     </a>
                   </div>
                   <div className="sidebar__item">
                     <a className="sidebar__link" href="#">
                       <Image
+                        width={0}
+                        height={0}
                         className="sidebar__img"
-                        src="img/playlist02.png"
+                        src="/img/playlist02.png"
                         alt="day's playlist"
+
                       />
                     </a>
                   </div>
                   <div className="sidebar__item">
                     <a className="sidebar__link" href="#">
                       <Image
+                        width={0}
+                        height={0}
                         className="sidebar__img"
-                        src="img/playlist03.png"
+                        src="/img/playlist03.png"
                         alt="day's playlist"
+
                       />
                     </a>
                   </div>
