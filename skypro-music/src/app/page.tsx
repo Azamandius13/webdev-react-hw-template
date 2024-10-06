@@ -1,15 +1,15 @@
-import Image from "next/image";
+import Image from 'next/image';
 import styles from './page.module.css';
 
 export default function Home() {
   return (
     <>
-      <div className="wrapper">
+      <div className={styles.wrapper}>
         <div className="container">
           <main className="main">
             <nav className="main__nav nav">
               <div className="nav__logo logo">
-                <Image width={0} height={0} alt="logo" className="logo__image" src="/img/logo.png" />
+                <Image width={100} height={100} alt="logo" className="logo__image" src="./img/logo.png" />
               </div>
               <div className="nav__burger burger">
                 <span className="burger__line" />
@@ -50,7 +50,7 @@ export default function Home() {
               </div>
               <h2 className={styles.centerblockH2}>Треки</h2>
               <div className="centerblock__filter filter">
-                <div className="filter__title">Искать по:</div>
+                <div className={styles.fiter__title}>Искать по:</div>
                 <div className="filter__button button-author _btn-text">
                   исполнителю
                 </div>
@@ -644,8 +644,8 @@ export default function Home() {
                   <div className="sidebar__item">
                     <a className="sidebar__link" href="#">
                       <Image
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                         className="sidebar__img"
                         src="/img/playlist01.png"
                         alt="day's playlist"
@@ -656,8 +656,8 @@ export default function Home() {
                   <div className="sidebar__item">
                     <a className="sidebar__link" href="#">
                       <Image
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                         className="sidebar__img"
                         src="/img/playlist02.png"
                         alt="day's playlist"
@@ -668,10 +668,10 @@ export default function Home() {
                   <div className="sidebar__item">
                     <a className="sidebar__link" href="#">
                       <Image
-                        width={0}
-                        height={0}
+                        width={100}
+                        height={100}
                         className="sidebar__img"
-                        src="/img/playlist03.png"
+                        src="./img/playlist03.png"
                         alt="day's playlist"
 
                       />

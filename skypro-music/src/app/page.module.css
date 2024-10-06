@@ -1,5 +1,6 @@
 
 .wrapper {
+  background-color: red;
   width: 100%;
   min-height: 100%;
   overflow: hidden;
@@ -246,6 +247,7 @@
 }
 
 .filter__title {
+  color:#a53939;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
