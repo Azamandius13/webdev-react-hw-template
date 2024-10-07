@@ -9,7 +9,7 @@ export default function Home() {
           <main className="main">
             <nav className="main__nav nav">
               <div className="nav__logo logo">
-                <Image width={100} height={100} alt="logo" className="logo__image" src="./img/logo.png" />
+                <Image width={100} height={100} alt="logo" className="logo__image" src="/img/logo.png" />
               </div>
               <div className="nav__burger burger">
                 <span className="burger__line" />
@@ -671,7 +671,7 @@ export default function Home() {
                         width={100}
                         height={100}
                         className="sidebar__img"
-                        src="./img/playlist03.png"
+                        src="/img/playlist03.png"
                         alt="day's playlist"
 
                       />
