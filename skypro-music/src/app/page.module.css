@@ -1,6 +1,5 @@
 
 .wrapper {
-  background-color: red;
   width: 100%;
   min-height: 100%;
   overflow: hidden;
@@ -15,7 +14,7 @@
   background-color: #181818;
 }
 
-._btn-text:hover {
+.btn_text:hover {
   border-color: #d9b6ff;
   color: #d9b6ff;
   cursor: pointer;
@@ -27,7 +26,7 @@
   cursor: pointer;
 }
 
-._btn-text:active {
+.btn_text:active {
   border-color: #ad61ff;
   color: #ad61ff;
   cursor: pointer;
@@ -128,7 +127,6 @@
 .menu__item {
   padding: 5px 0;
   margin-bottom: 16px;
-  color:red;
 }
 
 .menu__link {
@@ -155,7 +153,6 @@
 }
 
 .centerblockH2 {
-  color:red;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
@@ -297,7 +294,7 @@
   overflow-y: auto;
 }
 
-.playlist-title__col {
+.playlist_title__col {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -307,7 +304,7 @@
   text-transform: uppercase;
 }
 
-.playlist-title__svg {
+.playlist_title__svg {
   width: 12px;
   height: 12px;
   fill: transparent;
@@ -367,7 +364,7 @@
   width: 447px;
 }
 
-.track__title-image {
+.track__title_image {
   width: 51px;
   height: 51px;
   padding: 16px;
@@ -384,14 +381,14 @@
   margin-right: 17px;
 }
 
-.track__title-svg {
+.track__title_svg {
   width: 18px;
   height: 17px;
   fill: transparent;
   stroke: #4e4e4e;
 }
 
-.track__title-link {
+.track__title_link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -399,7 +396,7 @@
   color: #ffffff;
 }
 
-.track__title-span {
+.track__title_span {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -417,7 +414,7 @@
   justify-content: flex-start;
 }
 
-.track__author-link {
+.track__author_link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -430,7 +427,7 @@
   width: 245px;
 }
 
-.track__album-link {
+.track__album_link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -438,7 +435,7 @@
   color: #696969;
 }
 
-.track__time-svg {
+.track__time_svg {
   width: 14px;
   height: 12px;
   margin-right: 17px;
