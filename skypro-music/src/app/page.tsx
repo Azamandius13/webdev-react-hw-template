@@ -117,83 +117,51 @@ export default function Home() {
                       />
                     ))
                   }
-                  {/* <div className={classNames(styles.playlist__item)}>
-                    <div className={classNames(styles.playlist__track ,styles.track)}>
-                      <div className={styles.track__title}>
-                        <div className={styles.track__title_image}>
-                          <svg className={styles.track__title_svg}>
-                            <use xlinkHref="/img/icon/sprite.svg#icon-note" />
-                          </svg>
-                        </div>
-                        <div className={styles.track__title_text}>
-                          <a className={styles.track__title_link} href="http://">
-                            Guilt <span className={styles.track__title_span} />
-                          </a>
-                        </div>
-                      </div>
-                      <div className={styles.track__author}>
-                        <a className={styles.track__author_link} href="http://">
-                          Nero
-                        </a>
-                      </div>
-                      <div className={styles.track__album}>
-                        <a className={styles.track__album_link} href="http://">
-                          Welcome Reality
-                        </a>
-                      </div>
-                      <div className={styles.track__time}>
-                        <svg className={styles.track__time_svg}>
-                          <use xlinkHref="/img/icon/sprite.svg#icon-like" />
-                        </svg>
-                        <span className={styles.track__time_text}>4:44</span>
-                      </div>
-                    </div>
-                  </div>
-                   */}
+               
                 </div>
               </div>
             </div>
-            <div className="main__sidebar sidebar">
-              <div className="sidebar__personal">
-                <p className="sidebar__personal-name">Sergey.Ivanov</p>
-                <div className="sidebar__icon">
+            <div className={classNames(styles.main__sidebar ,styles.sidebar)}>
+              <div className={styles.sidebar__personal}>
+                <p className={styles.sidebar__personal_name}>Sergey.Ivanov</p>
+                <div className={styles.sidebar__icon}>
                   <svg>
-                    <use xlinkHref="img/icon/sprite.svg#logout" />
+                    <use xlinkHref="/img/icon/sprite.svg#logout" />
                   </svg>
                 </div>
               </div>
-              <div className="sidebar__block">
-                <div className="sidebar__list">
-                  <div className="sidebar__item">
-                    <a className="sidebar__link" href="#">
+              <div className={styles.sidebar__block}>
+                <div className={styles.sidebar__list}>
+                  <div className={styles.sidebar__item}>
+                    <a className={styles.sidebar__link} href="#">
                       <Image
                         width={100}
                         height={100}
-                        className="sidebar__img"
+                        className={styles.sidebar__img}
                         src="/img/playlist01.png"
                         alt="day's playlist"
 
                       />
                     </a>
                   </div>
-                  <div className="sidebar__item">
-                    <a className="sidebar__link" href="#">
+                  <div className={styles.sidebar__item}>
+                    <a className={styles.sidebar__link} href="#">
                       <Image
                         width={100}
                         height={100}
-                        className="sidebar__img"
+                        className={styles.sidebar__img}
                         src="/img/playlist02.png"
                         alt="day's playlist"
 
                       />
                     </a>
                   </div>
-                  <div className="sidebar__item">
-                    <a className="sidebar__link" href="#">
+                  <div className={styles.sidebar__item}>
+                    <a className={styles.sidebar__link} href="#">
                       <Image
                         width={100}
                         height={100}
-                        className="sidebar__img"
+                        className={styles.sidebar__img}
                         src="/img/playlist03.png"
                         alt="day's playlist"
 
@@ -204,80 +172,80 @@ export default function Home() {
               </div>
             </div>
           </main>
-          <div className="bar">
-            <div className="bar__content">
-              <div className="bar__player-progress" />
-              <div className="bar__player-block">
-                <div className="bar__player player">
-                  <div className="player__controls">
-                    <div className="player__btn-prev">
-                      <svg className="player__btn-prev-svg">
-                        <use xlinkHref="img/icon/sprite.svg#icon-prev" />
+          <div className={styles.bar}>
+            <div className={styles.bar__content}>
+              <div className={styles.bar__player_progress} />
+              <div className={styles.bar__player_block}>
+                <div className={classNames(styles.bar__player , styles.player)}>
+                  <div className={styles.player__controls}>
+                    <div className={styles.player__btn_prev}>
+                      <svg className={styles.player__btn_prev_svg}>
+                        <use xlinkHref="/img/icon/sprite.svg#icon-prev" />
                       </svg>
                     </div>
-                    <div className="player__btn-play _btn">
-                      <svg className="player__btn-play-svg">
-                        <use xlinkHref="img/icon/sprite.svg#icon-play" />
+                    <div className={classNames(styles.player__btn_play, styles._btn)}>
+                      <svg className={styles.player__btn_play_svg}>
+                        <use xlinkHref="/img/icon/sprite.svg#icon-play" />
                       </svg>
                     </div>
-                    <div className="player__btn-next">
-                      <svg className="player__btn-next-svg">
-                        <use xlinkHref="img/icon/sprite.svg#icon-next" />
+                    <div className={styles.player__btn_next}>
+                      <svg className={styles.player__btn_next_svg}>
+                        <use xlinkHref="/img/icon/sprite.svg#icon-next" />
                       </svg>
                     </div>
-                    <div className="player__btn-repeat _btn-icon">
-                      <svg className="player__btn-repeat-svg">
-                        <use xlinkHref="img/icon/sprite.svg#icon-repeat" />
+                    <div className={classNames(styles.player__btn_repeat, styles._btn_icon)}>
+                      <svg className={styles.player__btn_repeat_svg}>
+                        <use xlinkHref="/img/icon/sprite.svg#icon-repeat" />
                       </svg>
                     </div>
-                    <div className="player__btn-shuffle _btn-icon">
-                      <svg className="player__btn-shuffle-svg">
-                        <use xlinkHref="img/icon/sprite.svg#icon-shuffle" />
+                    <div className={classNames(styles.player__btn_shuffle ,styles._btn_icon)}>
+                      <svg className={styles.player__btn_shuffle_svg}>
+                        <use xlinkHref="/img/icon/sprite.svg#icon-shuffle" />
                       </svg>
                     </div>
                   </div>
-                  <div className="player__track-play track-play">
-                    <div className="track-play__contain">
-                      <div className="track-play__image">
-                        <svg className="track-play__svg">
-                          <use xlinkHref="img/icon/sprite.svg#icon-note" />
+                  <div className={classNames(styles.player__track_play ,styles.track_play)}>
+                    <div className={styles.track_play__contain}>
+                      <div className={styles.track_play__image}>
+                        <svg className={styles.track_play__svg}>
+                          <use xlinkHref="/img/icon/sprite.svg#icon-note" />
                         </svg>
                       </div>
-                      <div className="track-play__author">
-                        <a className="track-play__author-link" href="http://">
+                      <div className={styles.track_play__author}>
+                        <a className={styles.track_play__author_link} href="http://">
                           Ты та...
                         </a>
                       </div>
-                      <div className="track-play__album">
-                        <a className="track-play__album-link" href="http://">
+                      <div className={styles.track_play__album}>
+                        <a className={styles.track_play__album_ink} href="http://">
                           Баста
                         </a>
                       </div>
                     </div>
-                    <div className="track-play__like-dis">
-                      <div className="track-play__like _btn-icon">
-                        <svg className="track-play__like-svg">
-                          <use xlinkHref="img/icon/sprite.svg#icon-like" />
+                    <div className={styles.track_play__like_dis}>
+                      <div className={classNames(styles.track_play__like ,styles._btn_icon)}>
+                        <svg className={styles.track_play__like_svg}>
+                          <use xlinkHref="/img/icon/sprite.svg#icon-like" />
                         </svg>
                       </div>
-                      <div className="track-play__dislike _btn-icon">
-                        <svg className="track-play__dislike-svg">
-                          <use xlinkHref="img/icon/sprite.svg#icon-dislike" />
+                      <div className={classNames(styles.track_play__dislike , styles._btn_icon)}>
+                        <svg className={styles.track_play__dislike_svg}>
+                          <use xlinkHref="/img/icon/sprite.svg#icon-dislike" />
                         </svg>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="bar__volume-block volume">
-                  <div className="volume__content">
-                    <div className="volume__image">
-                      <svg className="volume__svg">
-                        <use xlinkHref="img/icon/sprite.svg#icon-volume" />
+                <div className={classNames(styles.bar__volume_block , styles.volume)}>
+                  <div className={styles.volume__content}>
+                    <div className={styles.volume__image}>
+                      <svg className={styles.volume__svg}>
+                        <use xlinkHref="/img/icon/sprite.svg#icon-volume" />
                       </svg>
                     </div>
-                    <div className="volume__progress _btn">
+                    <div className={classNames(styles.volume__progress ,  styles._btn)}>
                       <input
-                        className="volume__progress-line _btn"
+                        className={classNames(styles.volume__progress_line , styles._btn)}
                         type="range"
                         name="range"
                       />
@@ -287,7 +255,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <footer className="footer" />
+          <footer className={styles.footer} />
         </div>
       </div>
 
